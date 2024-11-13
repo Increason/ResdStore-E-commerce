@@ -1,0 +1,202 @@
+/* General Styles */
+*{
+    Margin: 0;
+    Padding: 0;
+    Box-sizing: border-box;
+    Font-family: Montserrat;
+    font-display: uppercase;
+}
+
+Body {
+    Background-color: #252525;
+    Color: #fff;
+    /* Font-size: 16px;
+    Line-height: 1.6; */
+    font-display: uppercase;
+}
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    Display: flex;
+    Justify-content: space-between;
+    Align-items: center;
+    Padding: 10px;
+    Background-color: #111;
+    position: sticky;
+    height: 4em;
+    top: 0;
+    padding: 3em 2em 2em 3em;
+}
+
+.navbar .logo {
+    Font-size: 2.0rem;
+    Font-weight: 700px;
+    font-family: Montserrate;
+    width: 7em;
+    margin: 0; 
+    position: relative;
+    top: -1.09rem;
+}
+
+.navbar img{
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 8px;
+}
+
+.navbar span{
+    color: orange;
+}
+
+.navbar .nav-list{
+    margin-left: 4px;
+    align-items: left;
+    margin-left: 300px;
+    padding-left: 0px;
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+}
+
+.navbar nav a {
+    margin-left: 20px;
+    Text-decoration: none;
+    Color: #fff;
+    Font-weight: 400px;
+}
+
+.navbar .explore img {
+    background-color: white;
+    Padding: 10px 20px;
+    Cursor: pointer;
+    justify-content: center;
+    margin: 0px; 
+}
+
+.join-btn {
+    Background-color: #ffb400;
+    Color: #000;
+    Border: none;
+    Padding: 10px 20px;
+    Cursor: pointer;
+    Border-radius: 5px;
+    margin-left: 800px;
+}
+
+/* Hero Section */
+.hero {
+    Display: flex;
+    Justify-content: space-between;
+    Align-items: center;
+    /* Padding: 4 px 300px;    */
+    margin-top: 4px;
+}
+
+
+.hero-text {
+    border-radius: 10px;
+    background-color: #000;
+    margin: 80px;
+    position: relative;
+    top: -1.5rem;
+    padding: 20px;
+    /* size: 100px; */
+
+}
+.hero-text h1 {
+    Font-size: 4rem;
+    Font-weight: 800px;
+}
+
+.start-btn {
+    Margin-top: 20px;
+    Padding: 10px 30px;
+    Border: none;
+    Background-color: #0f0f0f;
+    Color: #faf8f8;
+    font-weight: 30px;
+    Cursor: pointer;
+    border-radius: 40px;
+}
+
+.luxury {
+    Margin-top: 10px;
+    Font-weight: 400;
+    Opacity: 0.8;
+}
+
+.hero-image img {
+    Border-radius: 40px;
+    Width: auto;
+    Height: auto;
+    /* position: relative; */
+    top: -1.5rem;
+    /* padding: 20px; */
+    margin: 10px;
+    justify-content: center;
+}
+
+.hero-image p {
+    Margin-top: 10px;
+    Text-align: center;
+    Font-weight: 700;
+}
+
+/* Info Section */
+.info {
+    Display: flex;
+    Justify-content: space-around;
+    Padding: 30px;
+}
+
+.contact-card, .review-card {
+    Background-color: #333;
+    Padding: 20px;
+    Border-radius: 10px;
+    Width: 45%;
+    Display: flex;
+    Align-items: center;
+    Gap: 20px;
+}
+
+.contact-card img {
+    Border-radius: 50%;
+    Width: 100px;
+}
+
+.review-card h2 {
+    Font-size: 2rem;
+    Margin-bottom: 10px;
+}
+
+.review-card span {
+    Color: #ffb400;
+}
+
+.amenities span {
+    Display: inline-block;
+    Background-color: #444;
+    Padding: 5px 10px;
+    Margin: 5px;
+    Border-radius: 5px;
+}
+
+/* Media Queries
+@media (max-width: 768px) {
+    .hero {
+        Flex-direction: column;
+        Text-align: center;
+    }
+
+    .info {
+        Flex-direction: column;
+        Gap: 20px;
+    }
+
+    .contact-card, .review-card {
+        Width: 100%;
+    }
+} */
